@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+}
+
+.container {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #C89124;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0px 0;
+}
+
+.btn-brown {
+    background-color: #80471c; /* Warna latar belakang */
+    color: #f9f9f9; /* Warna teks */
+    border-radius: 30px;
+    border: 2px solid #80471c; /* Border */
+    padding: 15px; /* Padding dalam tombol */
+    text-align: center; /* Teks rata kiri */
+    display: flex; /* Flexbox untuk tata letak */
+    align-items: center; /* Vertikal rata tengah */
+    justify-content: space-between; /* Ikon di kiri, teks di tengah, titik di kanan */
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none; /* Menghilangkan garis bawah pada teks */
+    transition: all 0.3s ease; /* Transisi halus */
+    box-sizing: border-box; /* Pastikan padding dan border termasuk dalam lebar */
+    flex-grow: 1;
+    gap: 50px;
+}
+
+.btn-brown:hover {
+    background-color: #f9f9f9; /* Warna background saat hover */
+    color: #80471c; /* Teks berubah coklat saat hover */
+    border: 2px solid #80471c;
+}
+
+
+/* Styling untuk ikon titik tiga di pojok kanan */
+.btn-brown .dots {
+    margin-left: 50px; /* Mendorong ikon titik tiga ke ujung kanan */
+    font-size: 13px; /* Ukuran ikon titik tiga */
+    transition: color 0.3s ease; /* Efek transisi pada titik tiga */
+    color: #a98366
+}
+
+.btn-brown:hover .dots {
+    color: #80471c; /* Warna titik tiga berubah saat hover */
+}
+
+.material-symbols-outlined {
+    font-size: 30px !important;
+    color: #ffffff; /* Ganti dengan warna yang kamu inginkan */
+    margin-right: 50px; 
+   
+}
+
+.btn-brown:hover .material-symbols-outlined {
+    color: #80471c; /* Ganti warna ikon saat di-hover */
+}
+
+<svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" class="sc-gKsewC iyNHei"><title data-testid="svgTitle" id="title_0.9874137685333304">Facebook</title><path d="M23,12A11,11,0,1,0,10.279,22.865h0a11.08,11.08,0,0,0,3.436,0h0A10.952,10.952,0,0,0,23,12ZM10.859,21.935v-6.9a.5.5,0,0,0-.5-.5H8.193V12.5h2.166a.5.5,0,0,0,.5-.5V9.686c0-2.278,1.264-3.585,3.459-3.585a15.392,15.392,0,0,1,1.858.137V7.89h-.824l-.019,0a2,2,0,0,0-2.181,1.735,1.8,1.8,0,0,0-.011.4V12a.5.5,0,0,0,.5.5H15.97l-.312,2.035H13.641a.5.5,0,0,0-.5.5v6.9A10.124,10.124,0,0,1,10.859,21.935Zm3.282-.166V15.535h1.946a.5.5,0,0,0,.5-.425l.465-3.035a.5.5,0,0,0-.494-.575H14.141V10.016a1.267,1.267,0,0,1,.308-.821,1.218,1.218,0,0,1,.9-.3h1.324a.5.5,0,0,0,.5-.5V5.806a.5.5,0,0,0-.42-.494A16.661,16.661,0,0,0,14.325,5.1c-2.754,0-4.466,1.757-4.466,4.585V11.5H7.693a.5.5,0,0,0-.5.5v3.035a.5.5,0,0,0,.5.5H9.859v6.234a10,10,0,1,1,4.282,0Z"></path></svg><span class="sr-only">Facebook</span>
+
+<svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" class="sc-gKsewC iyNHei"><title data-testid="svgTitle" id="title_0.7892362216692052">Instagram</title><path d="M21.938,7.71a7.329,7.329,0,0,0-.456-2.394,4.615,4.615,0,0,0-1.1-1.694,4.61,4.61,0,0,0-1.7-1.1,7.318,7.318,0,0,0-2.393-.456C15.185,2.012,14.817,2,12,2s-3.185.012-4.29.062a7.329,7.329,0,0,0-2.394.456,4.615,4.615,0,0,0-1.694,1.1,4.61,4.61,0,0,0-1.1,1.7A7.318,7.318,0,0,0,2.062,7.71C2.012,8.814,2,9.182,2,12s.012,3.186.062,4.29a7.329,7.329,0,0,0,.456,2.394,4.615,4.615,0,0,0,1.1,1.694,4.61,4.61,0,0,0,1.7,1.1,7.318,7.318,0,0,0,2.393.456c1.1.05,1.472.062,4.29.062s3.186-.012,4.29-.062a7.329,7.329,0,0,0,2.394-.456,4.9,4.9,0,0,0,2.8-2.8,7.318,7.318,0,0,0,.456-2.393c.05-1.1.062-1.472.062-4.29S21.988,8.814,21.938,7.71Zm-1,8.534a6.351,6.351,0,0,1-.388,2.077,3.9,3.9,0,0,1-2.228,2.229,6.363,6.363,0,0,1-2.078.388C15.159,20.988,14.8,21,12,21s-3.159-.012-4.244-.062a6.351,6.351,0,0,1-2.077-.388,3.627,3.627,0,0,1-1.35-.879,3.631,3.631,0,0,1-.879-1.349,6.363,6.363,0,0,1-.388-2.078C3.012,15.159,3,14.8,3,12s.012-3.159.062-4.244A6.351,6.351,0,0,1,3.45,5.679a3.627,3.627,0,0,1,.879-1.35A3.631,3.631,0,0,1,5.678,3.45a6.363,6.363,0,0,1,2.078-.388C8.842,3.012,9.205,3,12,3s3.158.012,4.244.062a6.351,6.351,0,0,1,2.077.388,3.627,3.627,0,0,1,1.35.879,3.631,3.631,0,0,1,.879,1.349,6.363,6.363,0,0,1,.388,2.078C20.988,8.841,21,9.2,21,12S20.988,15.159,20.938,16.244Z"></path><path d="M17.581,5.467a.953.953,0,1,0,.952.952A.954.954,0,0,0,17.581,5.467Z"></path><path d="M12,7.073A4.927,4.927,0,1,0,16.927,12,4.932,4.932,0,0,0,12,7.073Zm0,8.854A3.927,3.927,0,1,1,15.927,12,3.932,3.932,0,0,1,12,15.927Z"></path></svg><span class="sr-only">Instagram</span>
+
+<div class="flex w-full h-full justify-center items-center text-white"><svg class="w-5 h-5" viewBox="0 0 16 19" fill="none"><path d="M6.36667 15.3667V15.9C6.36667 16.7837 7.08301 17.5 7.96667 17.5C8.85032 17.5 9.56667 16.7837 9.56667 15.9V15.3667M2.1 13.7667C2.1 14.6503 1.38366 15.3667 0.5 15.3667H15.4333C14.5497 15.3667 13.8333 14.6503 13.8333 13.7667V9.5C13.8333 6.25993 12.8067 3.63333 9.56667 3.63333V3.1C9.56667 2.21634 8.85032 1.5 7.96667 1.5C7.08301 1.5 6.36667 2.21634 6.36667 3.1V3.63333C3.1266 3.63333 2.1 6.25993 2.1 9.5L2.1 13.7667Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="bevel"></path></svg></div>
+
+<title data-testid="svgTitle" id="title_0.8289294962882148">Email</title><path d="M18.821,20.5H5.179A3.683,3.683,0,0,1,1.5,16.821V7.179A3.683,3.683,0,0,1,5.179,3.5H18.821A3.683,3.683,0,0,1,22.5,7.179v9.642A3.683,3.683,0,0,1,18.821,20.5ZM5.179,4.5A2.682,2.682,0,0,0,2.5,7.179v9.642A2.682,2.682,0,0,0,5.179,19.5H18.821A2.682,2.682,0,0,0,21.5,16.821V7.179A2.682,2.682,0,0,0,18.821,4.5Z"></path><path d="M12,14.209a.5.5,0,0,1-.346-.138L4.286,7.028a.5.5,0,0,1,.691-.723L12,13.018l7.023-6.713a.5.5,0,1,1,.691.723l-7.368,7.043A.5.5,0,0,1,12,14.209Z"></path><path d="M4.7,17.833a.5.5,0,0,1-.347-.86l5.54-5.31a.5.5,0,0,1,.692.722L5.048,17.694A.5.5,0,0,1,4.7,17.833Z"></path><path d="M19.3,17.832a.5.5,0,0,1-.346-.139l-5.538-5.308a.5.5,0,0,1,.692-.722l5.538,5.308a.5.5,0,0,1-.346.861Z"></path>
+
+Email

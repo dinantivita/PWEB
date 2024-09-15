@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+    
+   
+}
+
+.container {
+    text-align: center;
+    background-color: #f9f9f9;
+    
+   
+}
+
+h1 {
+    color: #C89124;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0px 0;
+}
+
+
+.btn-brown {
+    background-color:#80471c; /* Warna latar belakang awal */
+    color: #f9f9f9; /* Warna teks coklat */
+    border-radius: 27px;
+    border: 2px solid  #80471c; /* Border coklat di awal */
+    padding: 20px 120px;
+    text-align: center;
+   display: block;
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Transisi halus */
+}
+
+.btn-brown:hover {
+    background-color: #f9f9f9; /* Warna background coklat saat hover */
+    color:  #80471c; /* Teks berubah putih saat hover */
+    border: 2px solid #80471c; /* Border tetap coklat */
+    border-radius: 27px;
+    padding: 20px 120px;
+}
+
+.btn-brown i {
+    margin-right: 30px; /* Jarak antara ikon dan teks */
+    transition: color 0.3s ease; /* Efek transisi pada ikon */
+    padding-left: 10px;
+}
+
+.btn-brown:hover i {
+    color: #80471c; /* Mengubah warna ikon menjadi coklat saat di-hover */
+}
